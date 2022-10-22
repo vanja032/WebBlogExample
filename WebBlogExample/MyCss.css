@@ -1,0 +1,351 @@
+﻿/*CSS FIRST SCRIPT OF MY BLOG WEBSITE*/
+@font-face {
+  font-family: MyCustomFont;
+  src: url("Good UnicornTTF.ttf");
+}
+
+div a img[src='https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png']
+{
+    display: none !important;
+}
+
+body, html
+{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+body
+{
+	min-height: 100%;
+	/*display: none;*/
+}
+
+#page
+{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	min-height: 100%;
+	position: relative;
+	/*display: none;*/
+	opacity: 0;
+}
+
+#image_div
+{
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	background-image: url("wood-3240764_1920.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#black_shadow_cover
+{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(1, 1, 1, 0.7);
+}
+
+#header
+{
+	position: absolute;
+	width: 100%;
+	height: 21%;
+	margin: 0;
+	padding: 0;
+	top: 0;
+	left: 0;
+}
+
+#anchor_point_logo_img
+{
+	position: absolute;
+	height: 80%;
+	max-width: 15%;
+}
+
+#header_title
+{
+	width: 40%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 8%;
+	float: left;
+}
+
+#header_title_span
+{
+	font-family: MyCustomFont;
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	padding-bottom: 1vh;
+}
+#header_title_span:hover
+{
+	border-bottom: 0.7vh dotted white;
+	cursor: pointer;
+}
+#header_title_span:active
+{
+	border-bottom: 0.7vh dotted white;
+	cursor: pointer;
+	color: rgba(255, 255, 255, 0.7);
+}
+
+#menu
+{
+	width: 40%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 8%;
+	float: right;
+}
+
+#menu_item_01
+{
+	font-family: MyCustomFont;
+	color: white;
+	position: relative;
+	top: 50%;
+	float: right;
+	margin: 0 5%;
+	cursor: default;
+	padding-bottom: 1vh;
+	padding-left: 0.2vw;
+	padding-right: 0.2vw;
+}
+#menu_item_01:hover
+{
+	border-bottom: 0.5vh solid white;
+	cursor: pointer;
+	color: rgba(255, 255, 255, 0.8);
+}
+#menu_item_01:active
+{
+	border-bottom: 0.5vh solid white;
+	cursor: pointer;
+	color: rgba(255, 255, 255, 0.6);
+}
+
+#menu_item_02
+{
+	font-family: MyCustomFont;
+	color: white;
+	position: relative;
+	top: 50%;
+	float: right;
+	margin: 0;
+	margin: 0 5%;
+	/*margin-left: 5%;*/
+	cursor: default;
+	padding-bottom: 1vh;
+	padding-left: 0.2vw;
+	padding-right: 0.2vw;
+}
+#menu_item_02:hover
+{
+	border-bottom: 0.5vh solid white;
+	cursor: pointer;
+	color: rgba(255, 255, 255, 0.8);
+}
+#menu_item_02:active
+{
+	border-bottom: 0.5vh solid white;
+	cursor: pointer;
+	color: rgba(255, 255, 255, 0.6);
+}
+
+
+#menu_item_03
+{
+	font-family: MyCustomFont;
+	color: white;
+	position: relative;
+	top: 50%;
+	float: right;
+	/*margin: 0 5%;*/
+	margin-left: 5%;
+	cursor: default;
+	padding-bottom: 1vh;
+	padding-left: 0.2vw;
+	padding-right: 0.2vw;
+}
+#menu_item_03:hover
+{
+	border-bottom: 0.5vh solid white;
+	cursor: pointer;
+	color: rgba(255, 255, 255, 0.8);
+}
+#menu_item_03:active
+{
+	border-bottom: 0.5vh solid white;
+	cursor: pointer;
+	color: rgba(255, 255, 255, 0.6);
+}
+
+
+#my_image_logo_and_theme_title_div
+{
+	width: auto;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	top: 50%;
+	left: 50%;
+	text-align: center;
+}
+
+#my_image_picture
+{
+	position: relative;
+	margin-bottom: 4vh;
+	/*margin-top: 4vh;*/
+	max-height: 25vh;
+	border: 0.9vh solid white; 
+	border-radius: 50%;
+	padding: 1.2vh;
+	cursor: default;
+	  -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+	opacity: 0;
+}
+/*#my_image_picture:hover
+{
+	cursor: pointer;
+	animation-name: MyPictureAnimationLoad;
+	animation-duration: 0.2s;
+	animation-fill-mode: forwards;
+}*/
+
+@keyframes MyPictureAnimationLoad
+{
+	0%{padding: 0.8vh; margin-bottom: 4vh; }
+	100%{padding: 2vh; margin-bottom: 1.6vh; }
+}
+
+#theme_title_span
+{
+	font-family: MyCustomFont;
+	color: white;
+	text-align: center;
+	position: relative;
+}
+
+.posts_class
+{
+	padding: 8vh 22%;
+	/*padding-top: 10vh;*/
+	border-bottom: 0.4vh solid #292733;
+}
+
+.post_title_class
+{
+	font-family: MyCustomFont;
+	color: #292733;
+}
+
+.post_body_class
+{
+	font-family: Arial;
+	color: #292733;
+}
+
+.post_body_class_first_character_upper
+{
+	padding-left: 2vw;
+	font-family: MyCustomFont;
+	line-height: 0;
+}
+
+
+/*ABOUT ME NEW PAGE STYLE CSS*/
+#about_me_div
+{
+	position: absolute;
+	width: 60%;
+	min-height: 62%;/*100% - 21% = 79% 	- 7% - 10% = |62%*/
+	margin: 0;
+	padding: 0;
+	top: 21%;
+	left: 0;
+	background-color: white;
+	padding: 7vh 20%;
+	padding-top: 10vh;
+	font-family: Arial;
+	color: #292733;
+	border-bottom: 0.4vh solid #292733;
+}
+
+#my_image_logo_and_theme_title_div_about_me
+{
+	width: 100%;
+	display: table;
+}
+
+#my_image_picture_02
+{
+	position: relative;
+	border: 0.9vh solid #292733;
+	border-radius: 50%;
+	max-height: 17vh;
+	padding: 1.5vh;
+	cursor: default;
+	margin-bottom: 4vh;
+	left: 50%;
+	/*margin-left: 50%;*/
+	  -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+	opacity: 0;
+}
+
+#name_span_about_me_id
+{
+	width: 100%;
+	display: block;
+	font-family: MyCustomFont;
+	text-align: center;
+}
+
+#about_me_span_01
+{
+	max-width: 100%;
+	font-family: Arial;
+	color: #292733;
+	text-align: justify;
+	text-justify: auto;
+	margin-top: 4vh;
+}
+
+#about_me_span_01_first_upper_letter_class
+{
+	padding-left: 4vw;
+	font-family: MyCustomFont;
+	line-height: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
